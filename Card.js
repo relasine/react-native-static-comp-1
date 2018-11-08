@@ -31,6 +31,9 @@ export default class Card extends Component {
 
 const styles = StyleSheet.create({
   card: {
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 3,
     width: 150,
     height: 200,
     margin: 10,
